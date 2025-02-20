@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+.table {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.table td, .table th {
+    padding: 10px;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input, .form-group select {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 100%;
+}
+
+.btn-primary, .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+/* Style pour le bouton Edit */
+.btn-edit {
+    background-color: yellow;   /* Fond jaune */
+    border: 2px solid #000;     /* Bordure noire */
+    color: black;               /* Texte noir */
+    padding: 5px 15px;          /* Espacement intérieur */
+    border-radius: 5px;         /* Coins arrondis */
+    font-weight: bold;          /* Texte en gras */
+    text-decoration: none;      /* Enlever le soulignement */
+    display: inline-block;      /* Assurer que le bouton se comporte comme un élément de bloc en ligne */
+}
+
+.btn-edit:hover {
+    background-color: #ffcc00;  /* Couleur de fond jaune plus foncé au survol */
+    color: white;               /* Texte blanc au survol */
+    border-color: #ff9900;      /* Bordure orange au survol */
+}
